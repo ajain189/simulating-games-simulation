@@ -5,7 +5,7 @@ def play_round(num_players, switch_threshold):
     deck = []
     for v in range(1,14):
         deck.append(v)
-    deck = deck * 4
+    deck = deck * 4 
     random.shuffle(deck)
 
     hands = []
